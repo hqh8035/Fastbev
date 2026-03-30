@@ -1,0 +1,1 @@
+python scripts/train.py --config fastbev_v6
