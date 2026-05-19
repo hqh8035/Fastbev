@@ -1,0 +1,20 @@
+Metadata,Value
+bev_image_size height,320
+bev_image_size width,320.0
+bev_range x_max,16
+bev_range x_min,-16
+bev_range z_max,32.0
+bev_range z_min,0.0
+bev_resolution,10
+filter_distance,15.0
+gt_files_count,542
+iou_threshold,0.5
+pd_files_count,542
+
+Overall (micro),f1,fn,fp,precision,recall,tp
+Overall,0.849605,525,199,0.911319,0.795720,2045
+
+Category,f1,fn,fp,precision,recall,tp
+cyclist,0.739572,111,120,0.732143,0.747153,328
+person,0.795812,20,19,0.800000,0.791667,76
+vehicle,0.878480,394,60,0.964727,0.806388,1641
